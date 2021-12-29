@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.rashanstore.rashanstore.AddItem"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:id="@+id/sell"
+    android:layout_gravity="center_vertical">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="20dp"
+    android:isScrollContainer="false">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Sell Products"
+            android:textSize="30sp"
+            android:textColor="@color/colorPrimary"/>
+
+        <EditText
+            android:id="@+id/productName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Product Name"
+            android:gravity="center_horizontal"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_marginTop="18dp"
+            android:layout_gravity="center_horizontal"
+            android:inputType="text"
+            android:maxLines="1"
+            android:singleLine="true" />
+        <EditText
+            android:id="@+id/companyName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Company Name"
+            android:gravity="center_horizontal"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:inputType="text"
+            android:maxLines="1"
+            android:singleLine="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/mfgDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="15dp"
+                android:paddingLeft="15dp"
+                android:hint="MFG-Date"
+                android:inputType="date"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:focusable="false"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+            <EditText
+                android:id="@+id/expDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="15dp"
+                android:paddingLeft="15dp"
+                android:hint="EXP-Date"
+                android:inputType="date"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:focusable="false"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/qty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Quantity"
+                android:gravity="center_horizontal"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:inputType="numberDecimal"
+                android:maxLines="1"
+                android:singleLine="true" />
+            <EditText
+                android:id="@+id/price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Price"
+                android:gravity="center_horizontal"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:inputType="numberDecimal"
+                android:maxLines="1"
+                android:singleLine="true" />
+            <EditText
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Description"
+                android:gravity="center_horizontal"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:inputType="text"
+                android:maxLines="1"
+                android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="*On the price set by seller 2% extra will be charged from our end to the customers for the services."
+        android:textAllCaps="false"
+        android:textColor="#333333"
+        android:textSize="12sp"
+        android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/add_sell"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:background="@drawable/roundbutton"
+            android:text="ADD PRODUCT"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_margin="15dp"
+            android:textStyle="bold|normal"
+            android:typeface="normal"/>
+</LinearLayout>

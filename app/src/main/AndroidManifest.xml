@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rashanstore.rashanstore">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".GroceryImage"></activity>
+        <activity android:name=".MyGroceryList" />
+        <activity android:name=".LoginAs" />
+        <activity android:name=".LoginPhoneVerification" />
+        <activity android:name=".ResetPassword" />
+        <activity android:name=".ForgotPassword" />
+        <activity android:name=".GPay" />
+        <activity android:name=".IDFC" />
+        <activity android:name=".PhonePe" />
+        <activity android:name=".Paytm" />
+        <activity android:name=".SplashScreen" />
+        <activity android:name=".BestOffersCustomer" />
+        <activity android:name=".Customer" />
+        <activity android:name=".Event" />
+        <activity android:name=".OrderSummary" />
+        <activity
+            android:name=".MyOrders"
+            android:label="@string/title_activity_my_orders" />
+        <activity android:name=".Checkout" />
+        <activity android:name=".MyProductInformation" />
+        <activity
+            android:name=".MyProducts"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".WelcomeActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Register"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".About"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Contact"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Terms"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AddItem"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SellProduct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Cart"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BestOffers"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".phone_verification"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Verify_mobile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ProductInformation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".edit_phone_verification"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UploadImage"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

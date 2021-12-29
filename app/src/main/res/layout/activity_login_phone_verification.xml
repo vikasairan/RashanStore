@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rashanstore.rashanstore.LoginPhoneVerification"
+    android:isScrollContainer="false"
+    android:background="#FFFFFF">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="142dp"
+            android:layout_height="99dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/sms"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter OTP"
+            android:layout_marginTop="35dp"
+            android:textSize="18sp"
+            android:typeface="normal"
+            android:textStyle="bold"
+            android:textColor="#6b7868"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:textSize="12sp"
+            android:typeface="normal"
+            android:text="We have sent you access code "/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Via SMS for mobile number verfication"
+            android:textSize="12sp"
+            android:typeface="normal"
+            android:layout_gravity="center_horizontal"/>
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.mukesh.OtpView
+            android:id="@+id/editTextCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:inputType="number"
+            android:textColor="#000000"
+            app:length="6"
+            app:width="25sp"
+            />
+        <ImageView
+            android:id="@+id/buttonSignIn"
+            android:layout_width="62dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="18dp"
+            android:src="@drawable/forward"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Didn't Receive the OTP?"
+            android:textSize="14sp"
+            android:typeface="normal"
+            android:layout_marginTop="40dp"
+            />
+        <TextView
+            android:id="@+id/timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Please wait 60 sec"
+            android:textSize="14sp"
+            android:typeface="normal"
+            android:layout_marginTop="5dp"
+            />
+        <TextView
+            android:id="@+id/resendcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Resend Code"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:typeface="normal"
+            android:layout_marginTop="5dp"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

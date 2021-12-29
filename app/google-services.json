@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "734784659717",
+    "firebase_url": "https://rashanstore-da85f.firebaseio.com",
+    "project_id": "rashanstore-da85f",
+    "storage_bucket": "rashanstore-da85f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734784659717:android:aaea05ac60cee410",
+        "android_client_info": {
+          "package_name": "com.rashanstore.rashanstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "734784659717-28uc38m5qvf3nphofcvfc5gg03gme2oh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rashanstore.rashanstore",
+            "certificate_hash": "38c47bbf10d36384e793576023587eac7f9edcca"
+          }
+        },
+        {
+          "client_id": "734784659717-8jbc552sb24ocmk3k6rnk56kbvsnnhdj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNOU32s9D2evrJ_m8QONnALUXkFbp7rSI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "734784659717-8jbc552sb24ocmk3k6rnk56kbvsnnhdj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
